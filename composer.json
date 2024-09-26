@@ -2,7 +2,7 @@
     "name": "vendor/php_ma",
     "description": "Looke like Laravel framework",
     "type": "library",
-    "license": "A.C 2024",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Vendor\\PhpMa\\": "src/"
@@ -10,9 +10,16 @@
     },
     "authors": [
         {
-            "name": "Aimane Chnaif"
+            "name": "Aimane Chnaif",
+            "email": "a.chnaif2010@gmail.com",
+            "homepage": "https://aymane-web-dev.com/"
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aymane244/php_ma/"
+        }
+    ]
 }
