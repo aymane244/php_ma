@@ -1,0 +1,88 @@
+.display-3{
+    margin: 0;
+    animation: slideDown 0.5s ease-out;
+    animation-fill-mode: both;
+}
+.small-animation{
+    margin: 0;
+    animation: slideDown 0.5s ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+.point-1{
+    margin: 0;
+    animation: slideUp 0.5s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+.point-2{
+    margin: 0;
+    animation: slideUp 0.5s ease-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+.point-3{
+    margin: 0;
+    animation: slideUp 0.5s ease-out;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+.btn-animation{
+    margin: 0;
+    animation: slideUp 0.5s ease-out;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+.img-animation{
+    margin: 0;
+    animation: slideUp 0.5s ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+}
+.arrow-animation{
+    display: inline-block;
+    animation: moveRightLeft 2s infinite;
+}
+.fade-in-element{
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.fade-in-element.fade-in{
+    opacity: 1;
+}
+.cookie.slide-in-top{
+    visibility: visible;
+    animation: slideInTop 0.5s forwards;
+}
+@keyframes slideDown{
+    from{
+        transform: translateY(-20px); /* Start from above */
+    }
+    to{
+        transform: translateY(0); /* End at the normal position */
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(20px); /* Start from above */
+    }
+    to{
+        transform: translateY(0); /* End at the normal position */
+    }
+}
+@keyframes moveRightLeft{
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+@keyframes slideInTop{
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+} 
