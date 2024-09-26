@@ -5,7 +5,10 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Vendor\\PhpMa\\": "src/"
+            "Core\\" : "Core/",
+            "Database\\" : "Database/",
+            "Http\\" : "Http/",
+            "Mail\\" : "Mail/"
         }
     },
     "authors": [
